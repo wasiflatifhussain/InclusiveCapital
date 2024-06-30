@@ -70,3 +70,5 @@ Importance: Longer credit histories provide more information on the borrower’s
 
 ### First Model:
 Using a Sequential model, which is appropriate for a straightforward feedforward neural network.
+It uses a linear stack of layers where one layer leads to the next (output of prev layer = input of next layer)
+Uses adam optimizer to reduce loss  and sigmoid activation function to adjust values from one layer to next
