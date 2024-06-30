@@ -60,3 +60,13 @@ Importance: Longer credit histories provide more information on the borrower’s
 8. This graphs tell us that the majority of loan defaults are renters.
 9. Interestingly, 84% of renters who default have no prior defaults on file.
 10. Almost 60% of renters who default, have a credit history length of 4 years or less. Extra credit worthiness checks should be done by loan writers in order to reduce the number of loan defaults.
+
+#### Edits made to the dataset:
+1. person_emp_length had two anomalies: 123 and NaN which were replaced with median person_emp_length
+2. loan_int_rate anomalies: NaN values(multiple) were replaced with mean loan_int_rate
+3. categorical variables like person_home_ownership converted into dummy/numeric variable using one-hot-encoding
+4. converted the categorical variable loan_grade into ordinal values using OrdinalEncoder from scikit-learn. this is useful because loan_grade has a natural ordering (e.g., A is better than B, which is better than C, etc.)
+5. MinMaxScaler used to normalize the training and test datasets
+
+### First Model:
+Using a Sequential model, which is appropriate for a straightforward feedforward neural network.
