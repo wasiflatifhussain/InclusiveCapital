@@ -100,3 +100,44 @@ Mapping Based on Interest Rates:
 - GREEN_ENERGY_PROJECTS: Categories related to education or medical purposes which might have varied loan amounts and rates.
 - VETERAN_OWNED_BUSINESS: Categories with high creditworthiness (lower default rates).
 - LGBTQ_ENTREPRENEURS: Categories with higher interest rates and loan amounts.
+
+
+### Editing modified dataset to inject business_proposal_analysis header to data:
+Intuition: Analyzing the business proposal can give valuable insights into whether the business will become successful. By analyzing the modified dataset, we can draw patterns in the existing data and assume which of the datapoints may have business_proposal_analysis categorical rating of high-medium-low.
+
+##### We are currently considering two strategies to categorize the data and add the new header:
+###### Strategy 1 (using basic correlations):
+- High Business Plan:
+    1. Lower interest rates (7.5% - 12.5%).
+    2. Lower loan to income percentage.
+    3 .Loan grades A-D.
+    4. Non-default loans (loan_status = 0).
+- Medium Business Plan:
+    1. Moderate interest rates (12.5% - 20%).
+    2. Moderate loan to income percentage.
+    3. Loan grades A-D.
+    4. Mix of default and non-default loans.
+- Low Business Plan:
+    1. Higher interest rates (> 20%).
+    2. Higher loan to income percentage.
+    3. Default loans (loan_status = 1).
+
+###### Strategy 2 (more refined with deeper insights):
+- High Business Plan:
+    1. Non-default loans (loan_status = 0).
+    2. Interest rate <= 12.5%.
+    3. Loan to income percentage <= 0.5.
+    4. Loan grades A-D.
+    5. Renters with no prior defaults.
+    6. Credit history length > 4 years.
+- Medium Business Plan:
+    1. Non-default loans (loan_status = 0) with interest rate > 12.5% and <= 20%.
+    2. Default loans (loan_status = 1) with interest rate <= 20%.
+    3. Loan to income percentage > 0.5 and <= 0.9.
+    4. Loan grades A-D.
+    5. Renters with credit history length <= 4 years.
+- Low Business Plan:
+    1. Default loans (loan_status = 1) with interest rate > 20%.
+    2. Loan to income percentage > 0.9.
+    3. Loan grades E-G (if not already dropped).
+    4. Renters with prior defaults.
