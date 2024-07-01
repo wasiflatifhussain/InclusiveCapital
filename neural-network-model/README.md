@@ -68,7 +68,35 @@ Importance: Longer credit histories provide more information on the borrower’s
 4. converted the categorical variable loan_grade into ordinal values using OrdinalEncoder from scikit-learn. this is useful because loan_grade has a natural ordering (e.g., A is better than B, which is better than C, etc.)
 5. MinMaxScaler used to normalize the training and test datasets
 
-### First Model:
+### First Model with default dataset:
 Using a Sequential model, which is appropriate for a straightforward feedforward neural network.
 It uses a linear stack of layers where one layer leads to the next (output of prev layer = input of next layer)
 Uses adam optimizer to reduce loss  and sigmoid activation function to adjust values from one layer to next
+
+
+### Editing the raw dataset to inject the desired loan_intent categories and replace existing categories:
+Intuition:
+Based on the current correlations discovered from the dataset analysis, this is the mapping stragegy being employed to use the following loan intents into the dataset:
+#### Targetted Loan Intents
+1. WOMAN_ENTREPRENEUR
+2. MINORITY_BUSINESS
+3. GREEN_ENERGY_PROJECTS
+4. VETERAN_OWNED_BUSINESS
+5. LGBTQ_ENTREPRENEURS
+
+#### Approach:
+Mapping Based on Interest Rates:
+
+- Higher interest rates tend to correlate with defaults.
+- Lower interest rates tend to correlate with non-defaults.
+- Mapping Based on Loan Amount and Loan Percent Income:
+  Higher loan amounts and higher loan percent income tend to correlate with defaults.
+- Maintaining Distribution:
+  Ensure that the distribution of the new categories mirrors the existing distribution to maintain the correlation structures.
+
+#### Current Mapping Strategy:
+- WOMAN_ENTREPRENEUR: Categories with lower interest rates and loan percent income, tending towards non-defaults.
+- MINORITY_BUSINESS: Categories with moderate interest rates and loan amounts.
+- GREEN_ENERGY_PROJECTS: Categories related to education or medical purposes which might have varied loan amounts and rates.
+- VETERAN_OWNED_BUSINESS: Categories with high creditworthiness (lower default rates).
+- LGBTQ_ENTREPRENEURS: Categories with higher interest rates and loan amounts.
