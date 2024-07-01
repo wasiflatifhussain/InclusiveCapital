@@ -124,22 +124,31 @@ Intuition: Analyzing the business proposal can give valuable insights into wheth
 
 ###### Strategy 2 (more refined with deeper insights):
 - High Business Plan:
-  1. Non-default loans (loan_status = 0).
-  2. Lower interest rates (≤ 12.5%).
-  3. Lower loan to income percentage (≤ 0.5).
-  4. No prior defaults (cb_person_default_on_file = 'N').
-  5. Credit history length > 4 years.
+  1. Non-default loans (`loan_status` = 0) with:
+     - Lower interest rates (≤ 12.5%).
+     - Lower loan to income percentage (≤ 0.5).
+     - No prior defaults (`cb_person_default_on_file` = 'N').
+     - Credit history length > 4 years.
+  2. Default loans (`loan_status` = 1) with:
+     - Lower interest rates (≤ 12.5%).
+     - Lower loan to income percentage (≤ 0.5).
+     - No prior defaults (`cb_person_default_on_file` = 'N').
+     - Credit history length > 4 years.
 - Medium Business Plan:
-  1. Non-default loans (loan_status = 0) with:
-  2. Moderate interest rates (12.5% - 20%).
-  3. Loan percent income ≤ 0.9.
-  4. Default loans (loan_status = 1) with:
-  5. Interest rates ≤ 20%.
+  1. Non-default loans (`loan_status` = 0) with:
+     - Moderate interest rates (12.5% - 17%).
+     - Loan percent income ≤ 0.9.
+  2. Default loans (`loan_status` = 1) with:
+     - Interest rates ≤ 17%.
 - Low Business Plan:
-  1. Default loans (loan_status = 1) with:
-  2. Higher interest rates (> 20%).
-  3. Short credit history (credit history length ≤ 3 years).
-  4. Prior defaults (cb_person_default_on_file = 'Y').
+  1. Default loans (`loan_status` = 1) with:
+     - Higher interest rates (> 17%).
+     - Short credit history (credit history length ≤ 3 years).
+     - Prior defaults (`cb_person_default_on_file` = 'Y').
+  2. Non-default loans (`loan_status` = 0) with:
+     - Higher interest rates (> 17%).
+     - Short credit history (credit history length ≤ 3 years).
+     - Prior defaults (`cb_person_default_on_file` = 'Y').
 
 ###### Strategy 1 outcome: 
 - business_proposal_analysis
