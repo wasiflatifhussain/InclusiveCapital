@@ -124,20 +124,34 @@ Intuition: Analyzing the business proposal can give valuable insights into wheth
 
 ###### Strategy 2 (more refined with deeper insights):
 - High Business Plan:
-    1. Non-default loans (loan_status = 0).
-    2. Interest rate <= 12.5%.
-    3. Loan to income percentage <= 0.5.
-    4. Loan grades A-D.
-    5. Renters with no prior defaults.
-    6. Credit history length > 4 years.
+  1. Non-default loans (loan_status = 0).
+  2. Lower interest rates (≤ 12.5%).
+  3. Lower loan to income percentage (≤ 0.5).
+  4. No prior defaults (cb_person_default_on_file = 'N').
+  5. Credit history length > 4 years.
 - Medium Business Plan:
-    1. Non-default loans (loan_status = 0) with interest rate > 12.5% and <= 20%.
-    2. Default loans (loan_status = 1) with interest rate <= 20%.
-    3. Loan to income percentage > 0.5 and <= 0.9.
-    4. Loan grades A-D.
-    5. Renters with credit history length <= 4 years.
+  1. Non-default loans (loan_status = 0) with:
+  2. Moderate interest rates (12.5% - 20%).
+  3. Loan percent income ≤ 0.9.
+  4. Default loans (loan_status = 1) with:
+  5. Interest rates ≤ 20%.
 - Low Business Plan:
-    1. Default loans (loan_status = 1) with interest rate > 20%.
-    2. Loan to income percentage > 0.9.
-    3. Loan grades E-G (if not already dropped).
-    4. Renters with prior defaults.
+  1. Default loans (loan_status = 1) with:
+  2. Higher interest rates (> 20%).
+  3. Short credit history (credit history length ≤ 3 years).
+  4. Prior defaults (cb_person_default_on_file = 'Y').
+
+###### Strategy 1 outcome: 
+- business_proposal_analysis
+- High      16595
+- Medium    15923
+- Low          63
+- Name: count, dtype: int64
+###### Strategy 2 outcome:
+- business_proposal_analysis
+- Medium    21096
+- High       7394
+- Low        4091
+- Name: count, dtype: int64
+
+ ###### As we are unsure which dataset may provide better results, it is better to consider both strategies, as well as other grouping strategies as we go along, to figure out the most optimum dataset.
