@@ -12,13 +12,13 @@ To decide whether loan will be approved or rejected, the three scores: credit_sc
 
       ##### Weights:
       - **Credit Score**: 35% - Reflects the applicant's historical financial behavior.
-      - **Probability of Default**: 40% - Maintains a strong emphasis on the likelihood of the applicant defaulting.
-      - **Business Proposal Risk Score**: 25% - Considers the potential risk of the business failing.
+      - **Probability of Default**: 45% - Maintains a strong emphasis on the likelihood of the applicant defaulting.
+      - **Business Proposal Risk Score**: 20% - Considers the potential risk of the business failing.
       
       #### Justification:
-      - **Credit Score (35%)**: This weight ensures that the applicant's past financial behavior is given significant consideration.
-      - **Probability of Default (40%)**: The highest weight, as it directly affects the risk of not recovering the loan amount.
-      - **Business Proposal Risk Score (25%)**: While important, the risk of the business failing is slightly less critical compared to the direct probability of loan default.
+      - **Credit Score (35%)**: This weight ensures that the applicant's past financial behavior is given significant consideration, as a person with good creditworthiness shows a habit of paying back in time.
+      - **Probability of Default (45%)**: The highest weight, as it directly affects the risk of not recovering the loan amount.
+      - **Business Proposal Risk Score (20%)**: While important, the risk of the business failing is slightly less critical compared to the direct probability of loan default, as the person may be able to pay back the loan from elsewhere also.
 
 
 2. **Normalize the Scores:**
