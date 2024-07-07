@@ -268,6 +268,43 @@ def check_loan_proposal():
     print(result)
         
     return ({"business_proposal_risk_score" : result})
+
+def calculate_loan_approval_probability(credit_score, default_probability, business_proposal_risk_score):
+    # Normalize the credit score meaning to a numerical value (e.g., Poor = 0, Standard = 1, Good = 2)
+    credit_score_mapping = {'Poor': 0, 'Standard': 1, 'Good': 2}
+    normalized_credit_score = credit_score_mapping.get(credit_score['meaning'], 0) / 2.0  # Normalize to [0, 1]
+
+    # Extract the probability of default
+    prob_default = default_probability['default_probability'][0]  # already in [0, 1]
+
+    # Normalize the business proposal risk score to a [0, 1] range (assuming it's between 1 and 10)
+    normalized_business_risk_score = float(business_proposal_risk_score['business_proposal_risk_score']) / 10.0
+
+    # Calculate the loan approval probability
+    loan_approval_probability = (
+        0.35 * normalized_credit_score + 
+        0.45 * (1 - prob_default) + 
+        0.20 * (1 - normalized_business_risk_score)
+    )
+
+    return loan_approval_probability
+
+@app.route('/calculate-loan-approval-probability', methods=['POST'])
+def calculate_loan_approval():
+    data = request.json
+    credit_score = data['credit_score']
+    default_probability = data['default_probability']
+    business_proposal_risk_score = data['business_proposal_risk_score']
+
+    loan_approval_probability = calculate_loan_approval_probability(
+        credit_score, default_probability, business_proposal_risk_score
+    )
+
+    result = {
+        'loan_approval_probability': loan_approval_probability
+    }
+
+    return jsonify(result)
     
 
 
@@ -275,6 +312,8 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
+
+####  API CALL 1: /predict-credit-score ####
 
 # curl -X POST -H "Content-Type: application/json" -d '{
 #     "Age": 45,
@@ -302,6 +341,12 @@ if __name__ == '__main__':
 #     "Payment_Behaviour": "High_spent_Medium_value_payments"
 # }' http://127.0.0.1:5000/predict-credit-score
 
+        # output = 
+        # {
+        # "meaning": "Standard",
+        # "value": 1
+        # }
+
 # curl -X POST -H "Content-Type: application/json" -d "{
 #         "Age": 45,
 #         "Annual_Income": 120000,
@@ -328,6 +373,9 @@ if __name__ == '__main__':
 #         'Payment_Behaviour': 'High_spent_Medium_value_payments'
 # }" http://127.0.0.1:5000/predict-credit-score
 
+
+####  API CALL 2: /predict-default-probability  ####
+
 # curl -X POST -H "Content-Type: application/json" -d '{
 #     "person_age": 22,
 #     "person_income": 25000,
@@ -341,6 +389,13 @@ if __name__ == '__main__':
 #     "cb_person_default_on_file": "cb_person_default_on_file_N",
 #     "loan_grade": "grade_0"
 # }' http://127.0.0.1:5000/predict-default-probability
+
+        # output = 
+        # {
+        # "default_probability": [
+        #     0.2621043622493744
+        # ]
+        # }
 
 # curl -X POST -H "Content-Type: application/json" -d '{
 #     "person_age": 50,
@@ -356,8 +411,35 @@ if __name__ == '__main__':
 #     "loan_grade": "grade_1"
 # }' http://127.0.0.1:5000/predict-default-probability
 
-# curl -X POST http://127.0.0.1:5000/check-loan-proposal
+
+####  API CALL 3: /check-loan-proposal  ####
 
 # curl -X POST http://127.0.0.1:5000/check-loan-proposal -H "Content-Type: application/json" -d '{
 #     "idea": "Imagine starting a business that installs and operates payphone booths in urban and rural areas. These booths would provide public telephones for people who need to make calls but do not have access to a mobile phone. The business would charge per minute for calls, and the booths would be placed in high-traffic areas such as shopping centers, parks, and transportation hubs. The goal is to offer a convenient communication solution for individuals who need to make quick calls without relying on their own devices."
 # }'
+
+        # output =
+            # {
+            # "business_proposal_risk_score": 6.0
+            # }
+        
+ 
+####  API CALL 4: /calculate-loan-approval-probability  ####       
+            
+# curl -X POST -H "Content-Type: application/json" -d '{
+#     "credit_score": {
+#         "meaning": "Standard",
+#         "value": 1
+#     },
+#     "default_probability": {
+#         "default_probability": [0.2621043622493744]
+#     },
+#     "business_proposal_risk_score": {
+#         "business_proposal_risk_score": 6.0
+#     }
+# }' http://127.0.0.1:5000/calculate-loan-approval-probability
+
+        # output = 
+        # {
+        # "loan_approval_probability": 0.5870530369877816
+        # }
