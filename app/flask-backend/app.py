@@ -443,3 +443,5 @@ if __name__ == '__main__':
         # {
         # "loan_approval_probability": 0.5870530369877816
         # }
+
+# maybe add a comment on the score as well as the values and advice using groqs
