@@ -3,11 +3,12 @@
 import React from "react";
 import { Button, Typography } from "@material-tailwind/react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TermsAndConditions() {
   return (
-    <section className="min-h-screen bg-white">
-      <div className="w-full container mx-auto pt-12 pb-6 flex flex-col lg:flex-row items-start lg:items-center">
+    <section className="bg-white">
+      <div className="w-full container mx-auto pt-12 pb-12 mb-6 flex flex-col lg:flex-row items-start lg:items-center">
         <div className="lg:w-2/3">
           <Typography
             color="blue-gray"
@@ -36,12 +37,16 @@ export default function TermsAndConditions() {
             </Typography>
           </div>
           <div className="mt-8 flex">
-            <Button size="md" className="w-max mr-4" color="gray">
-              Get A Loan
-            </Button>
-            <Button size="md" className="w-max" color="gray">
-              Learn About Loans
-            </Button>
+            <Link href="/loan-eligibility">
+              <Button size="md" className="w-max mr-4" color="gray">
+                Get A Microloan
+              </Button>
+            </Link>
+            <Link href="/learn-loans">
+              <Button size="md" className="w-max" color="gray">
+                Learn About Loans
+              </Button>
+            </Link>
           </div>
         </div>
         <div className="lg:w-1/3 lg:h-full flex justify-center mt-8 lg:mt-14">
@@ -53,8 +58,6 @@ export default function TermsAndConditions() {
             className="rounded-lg object-cover"
           />
         </div>
-
-        <p>check if api calling works; if does, just do whole thing in one page</p>
       </div>
     </section>
   );

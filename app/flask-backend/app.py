@@ -22,6 +22,7 @@ client = Groq(
 )
 
 def check_credit_score(user):
+
     legend = {
         'Type_Of_Loan': [
             'Credit-Builder Loan', 'Personal Loan', 'Debt Consolidation Loan',
@@ -239,14 +240,14 @@ def predict_credit_score():
 def check_loan_proposal():
     data = request.json
     print(data)
-    story_content = data["idea"]
+    story_content = data["business_idea"]
 
     # # Check the success chances of the business idea using GROQ API
     chat_completion = client.chat.completions.create(
         messages=[
             {
                 "role": "user",
-                "content": f"Given below is a business idea a person wants to take a microloan against. Analyze the idea to see if there is a chance the business might fail and the person may not be able to pay back the loan. Give the idea a score out of 10 where, 1 means no risk of business failure at all, and 10 means the idea will definitely fail. Don't be too strict during the analysis. Be lenient during analysing the idea. The story is this:  {story_content}",
+                "content": f"Given below is a business idea a person wants to take a microloan against. Analyze the idea to see if there is a chance the business might fail and the person may not be able to pay back the loan. Give the idea a score out of 10 where, 1 means no risk of business failure at all, and 10 means the idea will definitely fail. Be less strict during analysing the idea and giving them a generous score. The story is this:  {story_content}",
             }
         ],
         model="llama3-8b-8192",
@@ -272,13 +273,13 @@ def check_loan_proposal():
 def calculate_loan_approval_probability(credit_score, default_probability, business_proposal_risk_score):
     # Normalize the credit score meaning to a numerical value (e.g., Poor = 0, Standard = 1, Good = 2)
     credit_score_mapping = {'Poor': 0, 'Standard': 1, 'Good': 2}
-    normalized_credit_score = credit_score_mapping.get(credit_score['meaning'], 0) / 2.0  # Normalize to [0, 1]
+    normalized_credit_score = credit_score / 2.0  # Normalize to [0, 1]
 
     # Extract the probability of default
-    prob_default = default_probability['default_probability'][0]  # already in [0, 1]
+    prob_default = default_probability # already in [0, 1]
 
     # Normalize the business proposal risk score to a [0, 1] range (assuming it's between 1 and 10)
-    normalized_business_risk_score = float(business_proposal_risk_score['business_proposal_risk_score']) / 10.0
+    normalized_business_risk_score = float(business_proposal_risk_score) / 10.0
 
     # Calculate the loan approval probability
     loan_approval_probability = (
@@ -292,9 +293,9 @@ def calculate_loan_approval_probability(credit_score, default_probability, busin
 @app.route('/calculate-loan-approval-probability', methods=['POST'])
 def calculate_loan_approval():
     data = request.json
-    credit_score = data['credit_score']
-    default_probability = data['default_probability']
-    business_proposal_risk_score = data['business_proposal_risk_score']
+    credit_score = int(data['credit_score'])
+    default_probability = float(data['default_probability'])
+    business_proposal_risk_score = float(data['business_proposal_risk_score'])
 
     loan_approval_probability = calculate_loan_approval_probability(
         credit_score, default_probability, business_proposal_risk_score
@@ -303,6 +304,7 @@ def calculate_loan_approval():
     result = {
         'loan_approval_probability': loan_approval_probability
     }
+    print(result)
 
     return jsonify(result)
     
@@ -373,6 +375,33 @@ if __name__ == '__main__':
 #         'Payment_Behaviour': 'High_spent_Medium_value_payments'
 # }" http://127.0.0.1:5000/predict-credit-score
 
+# curl -X POST -H "Content-Type: application/json" -d '{
+#         "Age": 25,
+#         "Annual_Income": 25000,
+#         "Monthly_Inhand_Salary": 2000,
+#         "Num_Bank_Accounts": 1,
+#         "Num_Credit_Card": 1,
+#         "Interest_Rate": 20,
+#         "Num_of_Loan": 5,
+#         "Delay_from_due_date": 10,
+#         "Num_of_Delayed_Payment": 10,
+#         "Changed_Credit_Limit": 1000,
+#         "Num_Credit_Inquiries": 8,
+#         "Credit_Mix": 0,
+#         "Outstanding_Debt": 20000,
+#         "Credit_Utilization_Ratio": 80,
+#         "Credit_History_Age": 1,
+#         "Total_EMI_per_month": 1000,
+#         "Amount_invested_monthly": 100,
+#         "Monthly_Balance": 500,
+#         "Type_Of_Loan": "Payday Loan",
+#         "Current_Month": "Month_May",
+#         "Occupation": "Occupation_Mechanic",
+#         "Payment_of_Min_Amount_Yes": 0,
+#         "Payment_Behaviour": "Low_spent_Large_value_payments"
+# }' http://127.0.0.1:5000/predict-credit-score
+
+
 
 ####  API CALL 2: /predict-default-probability  ####
 
@@ -427,16 +456,9 @@ if __name__ == '__main__':
 ####  API CALL 4: /calculate-loan-approval-probability  ####       
             
 # curl -X POST -H "Content-Type: application/json" -d '{
-#     "credit_score": {
-#         "meaning": "Standard",
-#         "value": 1
-#     },
-#     "default_probability": {
-#         "default_probability": [0.2621043622493744]
-#     },
-#     "business_proposal_risk_score": {
-#         "business_proposal_risk_score": 6.0
-#     }
+#     "credit_score": 1,
+#     "default_probability": 0.57,
+#     "business_proposal_risk_score": 6.0,
 # }' http://127.0.0.1:5000/calculate-loan-approval-probability
 
         # output = 

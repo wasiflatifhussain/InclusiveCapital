@@ -1,3 +1,6 @@
+"use client";
+
+import React, { useEffect } from "react";
 // components
 import { Navbar, Footer } from "@/components";
 
@@ -8,6 +11,7 @@ import Articles from "./articles";
 import TermsAndConditions from "./terms-and-conditions";
 
 export default function Campaign() {
+
   return (
     <>
       <Navbar />
@@ -15,8 +19,6 @@ export default function Campaign() {
       <div id="terms-and-conditions" className="scroll-margin-top">
         <TermsAndConditions />
       </div>
-      <Posts />
-      <Articles />
       <Footer />
     </>
   );

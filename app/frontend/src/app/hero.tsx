@@ -1,20 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Image from "next/image";
-import { Button, Typography, Input } from "@material-tailwind/react";
+import { Button, Typography } from "@material-tailwind/react";
+import Link from "next/link";
 
 function Hero() {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  if (!isClient) {
-    return null;
-  }
-
   return (
     <header className="mt-5 bg-white p-8">
       <div className="w-full container mx-auto pt-12 pb-24 text-center">
@@ -38,9 +28,11 @@ function Hero() {
         </Typography>
 
         <div className="flex flex-col items-center mt-8 gap-2">
-          <Button size="md" className="w-max" fullWidth color="gray">
-            get started
-          </Button>
+          <Link href="/loan-eligibility">
+            <Button size="md" className="w-max" fullWidth color="gray">
+              Get a Microloan
+            </Button>
+          </Link>
           <Typography variant="small" className="font-normal text-gray-700">
             See our{" "}
             <a
@@ -59,6 +51,9 @@ function Hero() {
           src="/image/img1.jpg"
           alt="credit cards"
           className="h-96 w-full rounded-lg object-cover lg:h-[21rem]"
+          priority
+          placeholder="blur"
+          blurDataURL="/image/img1-blur.jpg" // Use a low-quality placeholder image
         />
       </div>
     </header>

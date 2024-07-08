@@ -39,7 +39,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center !justify-between">
           <Typography
             as="a"
-            href="#"
+            href="/"
             variant="h6"
             className="text-gray-900"
           >
@@ -81,7 +81,7 @@ export function Footer() {
             Material Tailwind
           </a>{" "}
           by{" "}
-          <a href="http://wasiflatifhussain.github.io" target="_blank">
+          <a href="http://wasiflatifhussain.github.io" target="_blank" style={{textDecoration: "underline"}}>
             Wasif
           </a>
           .

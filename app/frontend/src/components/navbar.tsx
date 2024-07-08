@@ -19,7 +19,7 @@ const NAV_MENU = [
   {
     name: "About Us",
     icon: RectangleStackIcon,
-    href: "/",
+    href: "/about-us",
   },
   {
     name: "Get A Microloan",
@@ -72,7 +72,7 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <Typography
           as="a"
-          href="#"
+          href="/"
           color="blue-gray"
           className="text-lg font-bold"
         >

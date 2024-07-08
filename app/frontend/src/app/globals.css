@@ -12,4 +12,94 @@ html {
 
 nextjs-portal {
     display: none;
+}
+
+@keyframes swerve-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
   }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes swerve-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.swerve-in-left {
+  animation: swerve-in-left 1s ease-in-out forwards;
+}
+
+.swerve-in-right {
+  animation: swerve-in-right 1s ease-in-out forwards;
+}
+
+.floating-label-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.floating-label-input {
+  width: 100%;
+  padding: 0.8rem 0.5rem 0.5rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.floating-label {
+  position: absolute;
+  top: -0.75rem;
+  left: 0.5rem;
+  background: white;
+  padding: 0 0.25rem;
+  font-size: 0.75rem;
+  color: #333;
+  transition: all 0.2s ease-out;
+}
+
+.floating-label-input:focus ~ .floating-label,
+.floating-label-input:not(:placeholder-shown) ~ .floating-label {
+  top: -0.75rem;
+  left: 0.5rem;
+  font-size: 0.75rem;
+  color: #333;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Adjust as needed */
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

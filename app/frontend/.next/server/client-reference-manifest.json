@@ -747,7 +747,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -755,7 +755,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -763,7 +763,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -773,7 +773,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -781,7 +781,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -789,7 +789,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -799,7 +799,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "*",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -807,7 +807,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -815,7 +815,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "default",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -823,7 +823,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "defaultHead",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -831,7 +831,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "charSet",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -839,7 +839,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "name",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -847,7 +847,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "content",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -855,7 +855,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"title\"",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -863,7 +863,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"base\"",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -871,7 +871,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"meta\"",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -879,7 +879,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "TODO(prateekbh@)",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -887,7 +887,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"https",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -895,7 +895,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "here",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -903,7 +903,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "https",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -911,7 +911,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "reduceComponentsToState",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -919,7 +919,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "headManager",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -927,7 +927,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "inAmpMode",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -935,41 +935,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "value",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/articles.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/articles.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/articles.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "Articles": {
-        "id": "(sc_client)/./src/app/articles.tsx",
-        "name": "Articles",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/articles.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -1000,9 +966,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/posts.tsx": {
+    "(app-client)/./src/app/page.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/posts.tsx",
+        "id": "(sc_client)/./src/app/page.tsx",
         "name": "*",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -1010,23 +976,15 @@
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/posts.tsx",
+        "id": "(sc_client)/./src/app/page.tsx",
         "name": "",
         "chunks": [
           "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
-      "Posts": {
-        "id": "(sc_client)/./src/app/posts.tsx",
-        "name": "Posts",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
       "default": {
-        "id": "(sc_client)/./src/app/posts.tsx",
+        "id": "(sc_client)/./src/app/page.tsx",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -1065,7 +1023,7 @@
         "id": "(sc_client)/./src/components/fixed-plugin.tsx",
         "name": "*",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -1073,7 +1031,7 @@
         "id": "(sc_client)/./src/components/fixed-plugin.tsx",
         "name": "",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -1081,7 +1039,7 @@
         "id": "(sc_client)/./src/components/fixed-plugin.tsx",
         "name": "FixedPlugin",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -1091,7 +1049,7 @@
         "id": "(sc_client)/./src/components/index.ts",
         "name": "*",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -1099,47 +1057,7 @@
         "id": "(sc_client)/./src/components/index.ts",
         "name": "",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-        ],
-        "async": false
-      },
-      "ArticleCard": {
-        "id": "(sc_client)/./src/components/index.ts",
-        "name": "ArticleCard",
-        "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-        ],
-        "async": false
-      },
-      "BlogPostCard": {
-        "id": "(sc_client)/./src/components/index.ts",
-        "name": "BlogPostCard",
-        "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-        ],
-        "async": false
-      },
-      "FixedPlugin": {
-        "id": "(sc_client)/./src/components/index.ts",
-        "name": "FixedPlugin",
-        "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-        ],
-        "async": false
-      },
-      "Footer": {
-        "id": "(sc_client)/./src/components/index.ts",
-        "name": "Footer",
-        "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-        ],
-        "async": false
-      },
-      "Layout": {
-        "id": "(sc_client)/./src/components/index.ts",
-        "name": "Layout",
-        "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -1147,7 +1065,47 @@
         "id": "(sc_client)/./src/components/index.ts",
         "name": "Navbar",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "Footer": {
+        "id": "(sc_client)/./src/components/index.ts",
+        "name": "Footer",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "Layout": {
+        "id": "(sc_client)/./src/components/index.ts",
+        "name": "Layout",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "ArticleCard": {
+        "id": "(sc_client)/./src/components/index.ts",
+        "name": "ArticleCard",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "BlogPostCard": {
+        "id": "(sc_client)/./src/components/index.ts",
+        "name": "BlogPostCard",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "FixedPlugin": {
+        "id": "(sc_client)/./src/components/index.ts",
+        "name": "FixedPlugin",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -1157,7 +1115,7 @@
         "id": "(sc_client)/./src/components/layout.tsx",
         "name": "*",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -1165,7 +1123,7 @@
         "id": "(sc_client)/./src/components/layout.tsx",
         "name": "",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -1173,7 +1131,7 @@
         "id": "(sc_client)/./src/components/layout.tsx",
         "name": "Layout",
         "chunks": [
-          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -1181,7 +1139,247 @@
         "id": "(sc_client)/./src/components/layout.tsx",
         "name": "default",
         "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/loan-eligibility/business-risk-score.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/loan-eligibility/business-risk-score.tsx",
+        "name": "*",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/loan-eligibility/business-risk-score.tsx",
+        "name": "",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "Business_Risk_Score": {
+        "id": "(sc_client)/./src/app/loan-eligibility/business-risk-score.tsx",
+        "name": "Business_Risk_Score",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/loan-eligibility/business-risk-score.tsx",
+        "name": "default",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/loan-eligibility/credit-score.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/loan-eligibility/credit-score.tsx",
+        "name": "*",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/loan-eligibility/credit-score.tsx",
+        "name": "",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "Credit_Score": {
+        "id": "(sc_client)/./src/app/loan-eligibility/credit-score.tsx",
+        "name": "Credit_Score",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/loan-eligibility/credit-score.tsx",
+        "name": "default",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/loan-eligibility/loan-default.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/loan-eligibility/loan-default.tsx",
+        "name": "*",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/loan-eligibility/loan-default.tsx",
+        "name": "",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "Loan_Default": {
+        "id": "(sc_client)/./src/app/loan-eligibility/loan-default.tsx",
+        "name": "Loan_Default",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/loan-eligibility/loan-default.tsx",
+        "name": "default",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/loan-eligibility/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/loan-eligibility/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/loan-eligibility/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/loan-eligibility/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/learn-loans/credit-score-info.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/learn-loans/credit-score-info.tsx",
+        "name": "*",
+        "chunks": [
           "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/learn-loans/credit-score-info.tsx",
+        "name": "",
+        "chunks": [
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        ],
+        "async": false
+      },
+      "Credit_Score_Info": {
+        "id": "(sc_client)/./src/app/learn-loans/credit-score-info.tsx",
+        "name": "Credit_Score_Info",
+        "chunks": [
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/learn-loans/credit-score-info.tsx",
+        "name": "default",
+        "chunks": [
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/learn-loans/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/learn-loans/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/learn-loans/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/learn-loans/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/about-us/about-us-info.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/about-us/about-us-info.tsx",
+        "name": "*",
+        "chunks": [
+          "app/about-us/page:static/chunks/app/about-us/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/about-us/about-us-info.tsx",
+        "name": "",
+        "chunks": [
+          "app/about-us/page:static/chunks/app/about-us/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/about-us/about-us-info.tsx",
+        "name": "default",
+        "chunks": [
+          "app/about-us/page:static/chunks/app/about-us/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/about-us/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/about-us/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/about-us/page:static/chunks/app/about-us/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/about-us/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/about-us/page:static/chunks/app/about-us/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/about-us/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/about-us/page:static/chunks/app/about-us/page.js"
         ],
         "async": false
       }
@@ -2894,7 +3092,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2902,7 +3100,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2910,7 +3108,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2918,7 +3116,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2926,7 +3124,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2934,7 +3132,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2942,7 +3140,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2950,7 +3148,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2958,7 +3156,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2966,7 +3164,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2974,7 +3172,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2982,7 +3180,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2990,7 +3188,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -2998,7 +3196,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3006,7 +3204,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3014,7 +3212,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3022,7 +3220,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3030,7 +3228,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3038,7 +3236,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3046,7 +3244,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3054,7 +3252,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3062,7 +3260,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3070,7 +3268,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3078,7 +3276,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3086,7 +3284,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3094,7 +3292,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3102,7 +3300,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3110,7 +3308,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3118,7 +3316,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3126,7 +3324,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3134,7 +3332,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3142,7 +3340,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3150,7 +3348,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3158,7 +3356,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3166,7 +3364,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3174,7 +3372,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3182,7 +3380,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3190,7 +3388,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3198,7 +3396,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3206,7 +3404,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3214,7 +3412,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3222,7 +3420,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3230,7 +3428,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3238,7 +3436,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3246,7 +3444,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3254,7 +3452,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3262,7 +3460,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3270,39 +3468,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-      ],
-      "async": false
-    },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/articles.tsx": {
-      "id": "(app-client)/./src/app/articles.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/articles.tsx#": {
-      "id": "(app-client)/./src/app/articles.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/articles.tsx#Articles": {
-      "id": "(app-client)/./src/app/articles.tsx",
-      "name": "Articles",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/articles.tsx#default": {
-      "id": "(app-client)/./src/app/articles.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3330,32 +3496,24 @@
       ],
       "async": false
     },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/posts.tsx": {
-      "id": "(app-client)/./src/app/posts.tsx",
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/page.tsx": {
+      "id": "(app-client)/./src/app/page.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/posts.tsx#": {
-      "id": "(app-client)/./src/app/posts.tsx",
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/page.tsx#": {
+      "id": "(app-client)/./src/app/page.tsx",
       "name": "",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/posts.tsx#Posts": {
-      "id": "(app-client)/./src/app/posts.tsx",
-      "name": "Posts",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/posts.tsx#default": {
-      "id": "(app-client)/./src/app/posts.tsx",
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/page.tsx#default": {
+      "id": "(app-client)/./src/app/page.tsx",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -3390,7 +3548,7 @@
       "id": "(app-client)/./src/components/fixed-plugin.tsx",
       "name": "*",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3398,7 +3556,7 @@
       "id": "(app-client)/./src/components/fixed-plugin.tsx",
       "name": "",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3406,7 +3564,7 @@
       "id": "(app-client)/./src/components/fixed-plugin.tsx",
       "name": "FixedPlugin",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3414,7 +3572,7 @@
       "id": "(app-client)/./src/components/index.ts",
       "name": "*",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3422,47 +3580,7 @@
       "id": "(app-client)/./src/components/index.ts",
       "name": "",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-      ],
-      "async": false
-    },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/index.ts#ArticleCard": {
-      "id": "(app-client)/./src/components/index.ts",
-      "name": "ArticleCard",
-      "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-      ],
-      "async": false
-    },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/index.ts#BlogPostCard": {
-      "id": "(app-client)/./src/components/index.ts",
-      "name": "BlogPostCard",
-      "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-      ],
-      "async": false
-    },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/index.ts#FixedPlugin": {
-      "id": "(app-client)/./src/components/index.ts",
-      "name": "FixedPlugin",
-      "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-      ],
-      "async": false
-    },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/index.ts#Footer": {
-      "id": "(app-client)/./src/components/index.ts",
-      "name": "Footer",
-      "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
-      ],
-      "async": false
-    },
-    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/index.ts#Layout": {
-      "id": "(app-client)/./src/components/index.ts",
-      "name": "Layout",
-      "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3470,7 +3588,47 @@
       "id": "(app-client)/./src/components/index.ts",
       "name": "Navbar",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/index.ts#Footer": {
+      "id": "(app-client)/./src/components/index.ts",
+      "name": "Footer",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/index.ts#Layout": {
+      "id": "(app-client)/./src/components/index.ts",
+      "name": "Layout",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/index.ts#ArticleCard": {
+      "id": "(app-client)/./src/components/index.ts",
+      "name": "ArticleCard",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/index.ts#BlogPostCard": {
+      "id": "(app-client)/./src/components/index.ts",
+      "name": "BlogPostCard",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/index.ts#FixedPlugin": {
+      "id": "(app-client)/./src/components/index.ts",
+      "name": "FixedPlugin",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3478,7 +3636,7 @@
       "id": "(app-client)/./src/components/layout.tsx",
       "name": "*",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3486,7 +3644,7 @@
       "id": "(app-client)/./src/components/layout.tsx",
       "name": "",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3494,7 +3652,7 @@
       "id": "(app-client)/./src/components/layout.tsx",
       "name": "Layout",
       "chunks": [
-        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -3502,7 +3660,231 @@
       "id": "(app-client)/./src/components/layout.tsx",
       "name": "default",
       "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/business-risk-score.tsx": {
+      "id": "(app-client)/./src/app/loan-eligibility/business-risk-score.tsx",
+      "name": "*",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/business-risk-score.tsx#": {
+      "id": "(app-client)/./src/app/loan-eligibility/business-risk-score.tsx",
+      "name": "",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/business-risk-score.tsx#Business_Risk_Score": {
+      "id": "(app-client)/./src/app/loan-eligibility/business-risk-score.tsx",
+      "name": "Business_Risk_Score",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/business-risk-score.tsx#default": {
+      "id": "(app-client)/./src/app/loan-eligibility/business-risk-score.tsx",
+      "name": "default",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/credit-score.tsx": {
+      "id": "(app-client)/./src/app/loan-eligibility/credit-score.tsx",
+      "name": "*",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/credit-score.tsx#": {
+      "id": "(app-client)/./src/app/loan-eligibility/credit-score.tsx",
+      "name": "",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/credit-score.tsx#Credit_Score": {
+      "id": "(app-client)/./src/app/loan-eligibility/credit-score.tsx",
+      "name": "Credit_Score",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/credit-score.tsx#default": {
+      "id": "(app-client)/./src/app/loan-eligibility/credit-score.tsx",
+      "name": "default",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/loan-default.tsx": {
+      "id": "(app-client)/./src/app/loan-eligibility/loan-default.tsx",
+      "name": "*",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/loan-default.tsx#": {
+      "id": "(app-client)/./src/app/loan-eligibility/loan-default.tsx",
+      "name": "",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/loan-default.tsx#Loan_Default": {
+      "id": "(app-client)/./src/app/loan-eligibility/loan-default.tsx",
+      "name": "Loan_Default",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/loan-default.tsx#default": {
+      "id": "(app-client)/./src/app/loan-eligibility/loan-default.tsx",
+      "name": "default",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/page.tsx": {
+      "id": "(app-client)/./src/app/loan-eligibility/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/page.tsx#": {
+      "id": "(app-client)/./src/app/loan-eligibility/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/loan-eligibility/page.tsx#default": {
+      "id": "(app-client)/./src/app/loan-eligibility/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/loan-eligibility/page:static/chunks/app/loan-eligibility/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/learn-loans/credit-score-info.tsx": {
+      "id": "(app-client)/./src/app/learn-loans/credit-score-info.tsx",
+      "name": "*",
+      "chunks": [
         "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/learn-loans/credit-score-info.tsx#": {
+      "id": "(app-client)/./src/app/learn-loans/credit-score-info.tsx",
+      "name": "",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/learn-loans/credit-score-info.tsx#Credit_Score_Info": {
+      "id": "(app-client)/./src/app/learn-loans/credit-score-info.tsx",
+      "name": "Credit_Score_Info",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/learn-loans/credit-score-info.tsx#default": {
+      "id": "(app-client)/./src/app/learn-loans/credit-score-info.tsx",
+      "name": "default",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/learn-loans/page.tsx": {
+      "id": "(app-client)/./src/app/learn-loans/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/learn-loans/page.tsx#": {
+      "id": "(app-client)/./src/app/learn-loans/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/learn-loans/page.tsx#default": {
+      "id": "(app-client)/./src/app/learn-loans/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/about-us/about-us-info.tsx": {
+      "id": "(app-client)/./src/app/about-us/about-us-info.tsx",
+      "name": "*",
+      "chunks": [
+        "app/about-us/page:static/chunks/app/about-us/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/about-us/about-us-info.tsx#": {
+      "id": "(app-client)/./src/app/about-us/about-us-info.tsx",
+      "name": "",
+      "chunks": [
+        "app/about-us/page:static/chunks/app/about-us/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/about-us/about-us-info.tsx#default": {
+      "id": "(app-client)/./src/app/about-us/about-us-info.tsx",
+      "name": "default",
+      "chunks": [
+        "app/about-us/page:static/chunks/app/about-us/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/about-us/page.tsx": {
+      "id": "(app-client)/./src/app/about-us/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/about-us/page:static/chunks/app/about-us/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/about-us/page.tsx#": {
+      "id": "(app-client)/./src/app/about-us/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/about-us/page:static/chunks/app/about-us/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/about-us/page.tsx#default": {
+      "id": "(app-client)/./src/app/about-us/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/about-us/page:static/chunks/app/about-us/page.js"
       ],
       "async": false
     },

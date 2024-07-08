@@ -1,13 +1,19 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import { Footer, Navbar } from "@/components";
+import Credit_Score_Info from "./credit-score-info";
 
 export default function LearnLoans() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />
       <div className="container mx-auto py-12">
-        <h1 className="text-3xl font-bold mb-4">Learn About Loans</h1>
-        {/* Add your learn about loans content here */}
+        <Credit_Score_Info />
       </div>
       <Footer />
     </>
