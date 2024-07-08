@@ -38,3 +38,9 @@ InclusiveCapital is an innovative platform designed to help underrepresented gro
 ```
 Loan Approval Probability = (0.35 × Normalized Credit Score) + (0.45 × (1 - Probability of Default)) + (0.2 × Normalized Business Proposal Risk Score)
 ```
+
+
+
+frontend uses-
+materials-tailwind
+heroicons 
