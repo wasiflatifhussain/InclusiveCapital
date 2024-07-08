@@ -44,7 +44,7 @@ function Hero() {
           <Typography variant="small" className="font-normal text-gray-700">
             See our{" "}
             <a
-              href="#"
+              href="#terms-and-conditions"
               className="hover:text-gray-900 transition-colors underline"
             >
               Terms and Conditions

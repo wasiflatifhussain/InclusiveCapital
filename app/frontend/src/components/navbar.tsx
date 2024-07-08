@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {
   Navbar as MTNavbar,
   Collapse,
@@ -18,17 +19,17 @@ const NAV_MENU = [
   {
     name: "About Us",
     icon: RectangleStackIcon,
-    href: "#",
+    href: "/",
   },
   {
     name: "Get A Microloan",
     icon: CurrencyDollarIcon,
-    href: "#",
+    href: "/loan-eligibility",
   },
   {
     name: "Learn about Loans",
     icon: InformationCircleIcon,
-    href: "#",
+    href: "/learn-loans",
   },
 ];
 
@@ -40,16 +41,16 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
-      <Typography
-        as="a"
-        href={href || "#"}
-        // target={href ? "_blank" : "_self"}
-        variant="paragraph"
-        color="gray"
-        className="flex items-center gap-2 font-medium text-gray-900"
-      >
-        {children}
-      </Typography>
+      <Link href={href} passHref>
+        <Typography
+          as="a"
+          variant="paragraph"
+          color="gray"
+          className="flex items-center gap-2 font-medium text-gray-900"
+        >
+          {children}
+        </Typography>
+      </Link>
     </li>
   );
 }
@@ -71,8 +72,7 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <Typography
           as="a"
-          href="https://www.material-tailwind.com"
-          target="_blank"
+          href="#"
           color="blue-gray"
           className="text-lg font-bold"
         >
@@ -107,19 +107,13 @@ export function Navbar() {
       <Collapse open={open}>
         <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
           <ul className="flex flex-col gap-4">
-            {NAV_MENU.map(({ name, icon: Icon }) => (
-              <NavItem key={name}>
+            {NAV_MENU.map(({ name, icon: Icon, href }) => (
+              <NavItem key={name} href={href}>
                 <Icon className="h-5 w-5" />
                 {name}
               </NavItem>
             ))}
           </ul>
-          <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text">Sign In</Button>
-            <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray">blocks</Button>
-            </a>
-          </div>
         </div>
       </Collapse>
     </MTNavbar>

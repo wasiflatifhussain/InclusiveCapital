@@ -747,7 +747,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -755,7 +755,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -763,7 +763,33 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       }
@@ -773,7 +799,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -781,7 +807,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -789,7 +815,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "default",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -797,7 +823,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "defaultHead",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -805,7 +831,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "charSet",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -813,7 +839,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "name",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -821,7 +847,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "content",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -829,7 +855,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"title\"",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -837,7 +863,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"base\"",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -845,7 +871,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"meta\"",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -853,7 +879,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "TODO(prateekbh@)",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -861,7 +887,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"https",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -869,7 +895,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "here",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -877,7 +903,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "https",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -885,7 +911,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "reduceComponentsToState",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -893,7 +919,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "headManager",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -901,7 +927,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "inAmpMode",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -909,7 +935,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "value",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       }
@@ -1008,12 +1034,38 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./src/app/terms-and-conditions.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/terms-and-conditions.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/terms-and-conditions.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/terms-and-conditions.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/components/fixed-plugin.tsx": {
       "*": {
         "id": "(sc_client)/./src/components/fixed-plugin.tsx",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1021,7 +1073,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/fixed-plugin.tsx",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1029,7 +1081,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/fixed-plugin.tsx",
         "name": "FixedPlugin",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       }
@@ -1039,7 +1091,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/index.ts",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1047,7 +1099,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/index.ts",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1055,7 +1107,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/index.ts",
         "name": "ArticleCard",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1063,7 +1115,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/index.ts",
         "name": "BlogPostCard",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1071,7 +1123,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/index.ts",
         "name": "FixedPlugin",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1079,7 +1131,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/index.ts",
         "name": "Footer",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1087,7 +1139,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/index.ts",
         "name": "Layout",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1095,7 +1147,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/index.ts",
         "name": "Navbar",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       }
@@ -1105,7 +1157,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/layout.tsx",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1113,7 +1165,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/layout.tsx",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1121,7 +1173,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/layout.tsx",
         "name": "Layout",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       },
@@ -1129,7 +1181,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/layout.tsx",
         "name": "default",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
         ],
         "async": false
       }
@@ -2842,7 +2894,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2850,7 +2902,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2858,7 +2910,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2866,7 +2918,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2874,7 +2926,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2882,7 +2934,55 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2890,7 +2990,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2898,7 +2998,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2906,7 +3006,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2914,7 +3014,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2922,7 +3022,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2930,7 +3030,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2938,7 +3038,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2946,7 +3046,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2954,7 +3054,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2962,7 +3062,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2970,7 +3070,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2978,7 +3078,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2986,7 +3086,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -2994,7 +3094,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3002,7 +3102,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3010,7 +3110,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3018,7 +3118,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3026,7 +3126,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3034,7 +3134,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3042,7 +3142,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3050,7 +3150,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3058,7 +3158,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3066,7 +3166,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3074,7 +3174,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3082,7 +3182,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3090,7 +3190,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3098,7 +3198,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3106,7 +3206,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3114,7 +3214,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3122,7 +3222,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3130,7 +3230,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3138,7 +3238,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3146,7 +3246,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3154,7 +3254,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3162,7 +3262,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3170,7 +3270,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3262,11 +3362,35 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/terms-and-conditions.tsx": {
+      "id": "(app-client)/./src/app/terms-and-conditions.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/terms-and-conditions.tsx#": {
+      "id": "(app-client)/./src/app/terms-and-conditions.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/app/terms-and-conditions.tsx#default": {
+      "id": "(app-client)/./src/app/terms-and-conditions.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/wasiflatifhussain/Documents/2. InclusiveCapital/app/frontend/src/components/fixed-plugin.tsx": {
       "id": "(app-client)/./src/components/fixed-plugin.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3274,7 +3398,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/fixed-plugin.tsx",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3282,7 +3406,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/fixed-plugin.tsx",
       "name": "FixedPlugin",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3290,7 +3414,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/index.ts",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3298,7 +3422,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/index.ts",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3306,7 +3430,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/index.ts",
       "name": "ArticleCard",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3314,7 +3438,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/index.ts",
       "name": "BlogPostCard",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3322,7 +3446,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/index.ts",
       "name": "FixedPlugin",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3330,7 +3454,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/index.ts",
       "name": "Footer",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3338,7 +3462,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/index.ts",
       "name": "Layout",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3346,7 +3470,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/index.ts",
       "name": "Navbar",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3354,7 +3478,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/layout.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3362,7 +3486,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/layout.tsx",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3370,7 +3494,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/layout.tsx",
       "name": "Layout",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
@@ -3378,7 +3502,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/layout.tsx",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/learn-loans/page:static/chunks/app/learn-loans/page.js"
       ],
       "async": false
     },
