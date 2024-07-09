@@ -32,6 +32,9 @@ export function Business_Proposal_Info() {
             src="/image/icons/bi2.jpg" // Replace with the path to your icon
             alt="Business Idea"
             className="w-36 h-24 mb-4"
+            priority
+            placeholder="blur"
+            blurDataURL="/image/img1-blur.jpg" // Use a low-quality placeholder image
           />
           <Typography variant="h6" className="mb-2">
             Business Idea
@@ -47,6 +50,9 @@ export function Business_Proposal_Info() {
             src="/image/icons/pros.jpg" // Replace with the path to your icon
             alt="Pros and Cons"
             className="w-36 h-24 mb-4"
+            priority
+            placeholder="blur"
+            blurDataURL="/image/img1-blur.jpg" // Use a low-quality placeholder image
           />
           <Typography variant="h6" className="mb-2">
             Pros and Cons
@@ -62,6 +68,9 @@ export function Business_Proposal_Info() {
             src="/image/icons/pros2.jpg" // Replace with the path to your icon
             alt="Success Potential"
             className="w-36 h-24 mb-4"
+            priority
+            placeholder="blur"
+            blurDataURL="/image/img1-blur.jpg" // Use a low-quality placeholder image
           />
           <Typography variant="h6" className="mb-2">
             Success Potential

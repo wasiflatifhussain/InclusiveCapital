@@ -36,7 +36,7 @@ const ScoresAndPredict: React.FC<ScoresAndPredictProps> = ({ creditScore, loanDe
       }
 
       const data = await response.json();
-      setLoanApprovalProbability(data.loan_approval_probability);
+      setLoanApprovalProbability(data.loan_approval_probability*100);
     } catch (error) {
       console.error("Error:", error);
     } finally {

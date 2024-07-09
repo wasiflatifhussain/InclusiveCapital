@@ -30,6 +30,9 @@ const About_Info = () => {
             width={500}
             height={500}
             className="rounded-lg shadow-lg"
+            priority
+            placeholder="blur"
+            blurDataURL="/image/img1-blur.jpg" // Use a low-quality placeholder image
           />
         </div>
       </div>

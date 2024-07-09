@@ -56,6 +56,9 @@ export default function TermsAndConditions() {
             width={600}
             height={800}
             className="rounded-lg object-cover"
+            priority
+            placeholder="blur"
+            blurDataURL="/image/img1-blur.jpg" // Use a low-quality placeholder image
           />
         </div>
       </div>
