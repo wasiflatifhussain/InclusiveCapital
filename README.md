@@ -4,14 +4,14 @@
 
 InclusiveCapital is an innovative platform designed to help underrepresented groups such as women entrepreneurs, small farmers and agriculture, minority businesses, small businesses, and freelance and gig workers check their eligibility for receiving microloans. The platform leverages advanced machine learning models to predict the likelihood of loan approval, providing crucial insights to individuals who typically face difficulties in securing funding.
 
-## Features
+## 1. Features
 
 - **🔍 Credit Score Prediction**: Uses a stacking model to predict the user's credit score.
 - **📉 Probability of Default**: Utilizes an XGBoost classifier model optimized with grid search and cross-validation to estimate the probability of default.
 - **📊 Business Proposal Evaluation**: Analyzes the business proposal using the Groq API to provide a business proposal risk score.
 - **✅ Loan Approval Probability**: Combines the credit score, probability of default, and business proposal risk score to determine the probability of loan approval.
 
-## Loan Approval Probability Calculation
+## 2. Loan Approval Probability Calculation
 
 ### Approach
 
@@ -39,7 +39,7 @@ InclusiveCapital is an innovative platform designed to help underrepresented gro
 
 Loan Approval Probability = (0.35 × Normalized Credit Score) + (0.45 × (1 - Probability of Default)) + (0.2 × Normalized Business Proposal Risk Score)
 
-## AI Models Used
+## 3. AI Models Used
 
 ### Credit Score Prediction
 
@@ -72,7 +72,7 @@ Loan Approval Probability = (0.35 × Normalized Credit Score) + (0.45 × (1 - Pr
 ```
 
 
-## Technologies Used
+## 4. Technologies Used
 
 - **💻 Frontend**: 
   - [Material Tailwind](https://www.material-tailwind.com/)
@@ -83,7 +83,7 @@ Loan Approval Probability = (0.35 × Normalized Credit Score) + (0.45 × (1 - Pr
   - [Flask](https://flask.palletsprojects.com/)
   - AI models using various machine learning libraries
 
-## Setup and Installation
+## 5. Setup and Installation
 
 1. **Clone the repository:**
     ```sh
@@ -117,7 +117,7 @@ Loan Approval Probability = (0.35 × Normalized Credit Score) + (0.45 × (1 - Pr
     python3 app.py
     ```
 
-## Usage
+## 6. Usage
 
 1. **Navigate to the frontend URL:**
    Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -128,7 +128,7 @@ Loan Approval Probability = (0.35 × Normalized Credit Score) + (0.45 × (1 - Pr
    - 📊 Evaluate your business proposal.
    - ✅ Calculate your loan approval probability.
   
-## 📸 Samples of the Interface
+## 7. Samples of the Interface
 <img width="1470" alt="1" src="https://github.com/wasiflatifhussain/InclusiveCapital/assets/86021138/a46a0a7e-2523-4852-b5e7-6042ca302168">
 <img width="1470" alt="2" src="https://github.com/wasiflatifhussain/InclusiveCapital/assets/86021138/4d5e1ae8-06e8-46da-a3e8-ad949034bce0">
 <img width="1470" alt="3" src="https://github.com/wasiflatifhussain/InclusiveCapital/assets/86021138/4b379430-a1d7-4e99-bd87-f9508f7d5e5b">
