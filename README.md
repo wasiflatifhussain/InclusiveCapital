@@ -85,10 +85,13 @@ Loan Approval Probability = (0.35 × Normalized Credit Score) + (0.45 × (1 - Pr
 
 ## 5. Setup and Installation
 
+### The web-app exists inside the folder named "app"
+
 1. **Clone the repository:**
     ```sh
     git clone https://github.com/yourusername/InclusiveCapital.git
     cd InclusiveCapital
+    cd app
     ```
 
 2. **Install frontend dependencies:**
